@@ -1,2 +1,4 @@
-package com.honepix.zarena.module.skill.gui;public class UserSkillMainGui {
+package com.honepix.zarena.module.skill.gui;
+
+public class UserSkillMainGui {
 }

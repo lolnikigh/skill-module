@@ -1,4 +1,9 @@
 name: skill-module
 version: '${project.version}'
-main: com.honepix.zarena.skillmodule.SkillModule
+main: com.honepix.zarena.module.skill.SkillModule
 api-version: '1.16'
+depend:
+  - HonepixLib
+  - user-api
+  - economy-module
+  - LuckPerms

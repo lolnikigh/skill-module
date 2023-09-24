@@ -1,6 +1,5 @@
-package com.honepix.zarena.module.economy.command;
+package com.honepix.zarena.module.skill.command;
 
-import com.honepix.zarena.module.economy.config.EconomyMessages;
 import dev.rollczi.litecommands.command.LiteInvocation;
 import dev.rollczi.litecommands.handle.InvalidUsageHandler;
 import dev.rollczi.litecommands.schematic.Schematic;
@@ -13,8 +12,6 @@ import static com.honepix.lib.util.ComponentUtils.fromLegacy;
 
 @AllArgsConstructor
 public class InvalidUsageHandlerImpl implements InvalidUsageHandler<CommandSender> {
-
-    private EconomyMessages economyMessages;
 
     @Override
     public void handle(CommandSender sender, LiteInvocation invocation, Schematic schematic) {

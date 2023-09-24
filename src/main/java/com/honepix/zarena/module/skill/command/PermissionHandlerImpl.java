@@ -1,4 +1,4 @@
-package com.honepix.zarena.module.economy.command;
+package com.honepix.zarena.module.skill.command;
 
 import dev.rollczi.litecommands.command.LiteInvocation;
 import dev.rollczi.litecommands.command.permission.RequiredPermissions;

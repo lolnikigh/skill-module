@@ -1,0 +1,33 @@
+# 5000 - 6000
+skill:
+  RAPID:
+    # Цена
+    points: 5
+    name: 'Скорость'
+    lore:
+      - '+$modifier% к скорости при передвижении'
+    # Format: '<level>:<cost>:<modifier>' modifier
+    level:
+      - '1:6500:3.5'
+      - '2:7500:7.4'
+      - '3:8000:10.2'
+  HUNT:
+    points: 5
+    name: 'Охота'
+    lore:
+      - 'При убийстве игрока подсвечивает игроков,'
+      - 'которые находятся в радиусе 15 блоков на $modifier сек.'
+      - ''
+      - 'Прим. Ваши друзья и соклановцы не будут подсвечены'
+    level:
+      - '1:5000:2.2'
+      - '2:6000:3.2'
+      - '3:7200:4.5'
+# permission zarena.skill.points.<group>
+group:
+  points:
+    default: 10
+    vip: 13
+    premium: 16
+    advanced: 20
+
