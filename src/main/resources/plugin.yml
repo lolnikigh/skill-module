@@ -1,0 +1,4 @@
+name: skill-module
+version: '${project.version}'
+main: com.honepix.zarena.skillmodule.SkillModule
+api-version: '1.16'
